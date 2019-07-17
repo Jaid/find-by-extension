@@ -7,7 +7,25 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
    */
 const {default: findByExtension} = indexModule
 
-it("should run", () => {
-  const result = findByExtension()
-  expect(result).toBeGreaterThan(1549410770)
+it("should run with string return", () => {
+  const result = findByExtension("js", {
+    cwd: __dirname,
+  })
+  expect(result).toBe("test.js")
+})
+
+it("should return absolute path", () => {
+  const result = findByExtension("js", {
+    cwd: __dirname,
+    absolute: true,
+  })
+  expect(result).toBe(path.join(__dirname, "test.js"))
+})
+
+it("should run with array return", () => {
+  const result = findByExtension("js", {
+    all: true,
+    cwd: path.join(__dirname, "..", "src"),
+  })
+  expect(result).toStrictEqual(["index.js"])
 })
