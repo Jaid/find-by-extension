@@ -14,7 +14,7 @@ import ensureStart from "ensure-start"
  */
 
 /**
- * Returns the number of seconds passed since Unix epoch (01 January 1970)
+ * Finds the first existing file ending with specified extension.
  * @function
  * @param {string|string[]} extensions
  * @param {Options} [options]
