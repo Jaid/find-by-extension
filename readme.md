@@ -3,6 +3,15 @@
 
 Finds the first existing file ending with specified extension.
 
+## Installation
+<a href='https://npmjs.com/package/find-by-extension'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+```bash
+npm install --save find-by-extension@^
+```
+<a href='https://yarnpkg.com/package/find-by-extension'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+```bash
+yarn add find-by-extension@^
+```
 
 
 ## Try it out
