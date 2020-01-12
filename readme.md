@@ -1,57 +1,68 @@
 # find-by-extension
 
 
-Finds the first existing file ending with specified extension.
+<a href="https://raw.githubusercontent.com/Jaid/find-by-extension/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/find-by-extension?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/find-by-extension/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Ffind-by-extension%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/find-by-extension/commits"><img src="https://img.shields.io/github/commits-since/Jaid/find-by-extension/v1.1.1?style=flat-square&logo=github" alt="Commits since v1.1.1"/></a> <a href="https://github.com/Jaid/find-by-extension/commits"><img src="https://img.shields.io/github/last-commit/Jaid/find-by-extension?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/find-by-extension/issues"><img src="https://img.shields.io/github/issues/Jaid/find-by-extension?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/find-by-extension"><img src="https://img.shields.io/npm/v/find-by-extension?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/find-by-extension/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/find-by-extension?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/find-by-extension"><img src="https://img.shields.io/npm/dm/find-by-extension?style=flat-square&logo=npm" alt="Downloads"/></a>
+
+**Finds the first existing file ending with specified extension.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
-<a href='https://npmjs.com/package/find-by-extension'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
+<a href="https://npmjs.com/package/find-by-extension"><img src="https://img.shields.io/badge/npm-find--by--extension-C23039?style=flat-square&logo=npm" alt="find-by-extension on npm"/></a>
 ```bash
 npm install --save find-by-extension@^1.1.1
 ```
-<a href='https://yarnpkg.com/package/find-by-extension'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
+<a href="https://yarnpkg.com/package/find-by-extension"><img src="https://img.shields.io/badge/Yarn-find--by--extension-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="find-by-extension on Yarn"/></a>
 ```bash
 yarn add find-by-extension@^1.1.1
 ```
 
 
 
-## Documentation
 
-* [find-by-extension](#module_find-by-extension)
-    * [module.exports(extensions, [options])](#exp_module_find-by-extension--module.exports) ⇒ <code>false</code> \| <code>string</code> \| <code>Array.&lt;string&gt;</code> ⏏
-        * [~Options](#module_find-by-extension--module.exports..Options) : <code>Object</code>
 
-Finds the first existing file ending with specified extension.
 
-**Kind**: Exported function  
 
-| Param | Type |
-| --- | --- |
-| extensions | <code>string</code> \| <code>Array.&lt;string&gt;</code> | 
-| [options] | <code>Options</code> | 
 
-**Example**  
-```javascript
-import findByExtension from "find-by-extension"
-const result = findByExtension("js")
-result === "index.js"
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/find-by-extension.git
+cd find-by-extension
+npm install
 ```
-**Kind**: inner typedef of [<code>module.exports</code>](#exp_module_find-by-extension--module.exports)  
-**Properties**
-
-| Name | Type | Default |
-| --- | --- | --- |
-| [absolute] | <code>boolean</code> | <code>false</code> | 
-| [cwd] | <code>string</code> | <code>&quot;process.cwd()&quot;</code> | 
-| [all] | <code>boolean</code> | <code>false</code> | 
-
+Testing:
+```bash
+npm run test:dev
+```
+Testing in production environment:
+```bash
+npm run test
+```
 
 
 ## License
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
