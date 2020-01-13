@@ -35,5 +35,9 @@
   },
   "name": "find-by-extension",
   "description": "Finds the first existing file ending with specified extension.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/find-by-extension"
+  }
 }
