@@ -1,9 +1,9 @@
 # find-by-extension
 
 
-<a href="https://raw.githubusercontent.com/Jaid/find-by-extension/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/find-by-extension?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/find-by-extension/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Ffind-by-extension%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/find-by-extension/commits"><img src="https://img.shields.io/github/commits-since/Jaid/find-by-extension/v1.1.1?style=flat-square&logo=github" alt="Commits since v1.1.1"/></a> <a href="https://github.com/Jaid/find-by-extension/commits"><img src="https://img.shields.io/github/last-commit/Jaid/find-by-extension?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/find-by-extension/issues"><img src="https://img.shields.io/github/issues/Jaid/find-by-extension?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/find-by-extension"><img src="https://img.shields.io/npm/v/find-by-extension?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/find-by-extension/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/find-by-extension?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/find-by-extension"><img src="https://img.shields.io/npm/dm/find-by-extension?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/find-by-extension/master/license.txt"><img src="https://img.shields.io/github/license/jaid/find-by-extension?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor find-by-extension"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/find-by-extension/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Ffind-by-extension%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/find-by-extension/commits"><img src="https://img.shields.io/github/commits-since/jaid/find-by-extension/v1.1.1?style=flat-square&logo=github" alt="Commits since v1.1.1"/></a> <a href="https://github.com/jaid/find-by-extension/commits"><img src="https://img.shields.io/github/last-commit/jaid/find-by-extension?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/find-by-extension/issues"><img src="https://img.shields.io/github/issues/jaid/find-by-extension?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/find-by-extension"><img src="https://img.shields.io/npm/v/find-by-extension?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/find-by-extension/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/find-by-extension?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/find-by-extension"><img src="https://img.shields.io/npm/dm/find-by-extension?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Finds the first existing file ending with specified extension.**
 
@@ -37,14 +37,13 @@ yarn add find-by-extension@^1.1.1
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/find-by-extension.git
+git clone git@github.com:jaid/find-by-extension.git
 cd find-by-extension
 npm install
 ```
