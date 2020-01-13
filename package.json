@@ -34,5 +34,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "find-by-extension",
-  "description": "Finds the first existing file ending with specified extension."
+  "description": "Finds the first existing file ending with specified extension.",
+  "funding": "https://github.com/sponsors/jaid"
 }
