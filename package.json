@@ -40,5 +40,14 @@
     "url": "https://github.com/jaid/find-by-extension"
   },
   "homepage": "https://github.com/Jaid/find-by-extension",
-  "keywords": []
+  "keywords": [
+    "filesystem",
+    "find-by-extension",
+    "fs",
+    "lib",
+    "library",
+    "suffix",
+    "util",
+    "utility"
+  ]
 }
